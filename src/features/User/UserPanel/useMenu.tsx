@@ -5,7 +5,6 @@ import {
   Book,
   CircleUserRound,
   Download,
-  Feather,
   HardDriveDownload,
   HardDriveUpload,
   LifeBuoy,
@@ -21,7 +20,7 @@ import { Flexbox } from 'react-layout-kit';
 import urlJoin from 'url-join';
 
 import type { MenuProps } from '@/components/Menu';
-import { DISCORD, DOCUMENTS, EMAIL_SUPPORT, GITHUB_ISSUES, mailTo } from '@/const/url';
+import { DISCORD, DOCUMENTS, EMAIL_SUPPORT, mailTo } from '@/const/url';
 import { isServerMode } from '@/const/version';
 import DataImporter from '@/features/DataImporter';
 import { useOpenSettings } from '@/hooks/useInterceptingRoutes';
@@ -180,15 +179,6 @@ export const useMenu = () => {
           label: (
             <Link href={DOCUMENTS} target={'_blank'}>
               {t('userPanel.docs')}
-            </Link>
-          ),
-        },
-        {
-          icon: <Icon icon={Feather} />,
-          key: 'feedback',
-          label: (
-            <Link href={GITHUB_ISSUES} target={'_blank'}>
-              {t('userPanel.feedback')}
             </Link>
           ),
         },

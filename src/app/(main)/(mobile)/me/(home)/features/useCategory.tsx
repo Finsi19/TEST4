@@ -1,11 +1,11 @@
 import { DiscordIcon } from '@lobehub/ui';
-import { Book, CircleUserRound, Database, Download, Feather, Settings2 } from 'lucide-react';
+import { Book, CircleUserRound, Database, Download, Settings2 } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import { useTranslation } from 'react-i18next';
 
 import { CellProps } from '@/components/Cell';
 import { enableAuth } from '@/const/auth';
-import { DISCORD, DOCUMENTS, FEEDBACK } from '@/const/url';
+import { DISCORD, DOCUMENTS } from '@/const/url';
 import { isServerMode } from '@/const/version';
 import { usePWAInstall } from '@/hooks/usePWAInstall';
 import { useUserStore } from '@/store/user';
@@ -85,12 +85,6 @@ export const useCategory = () => {
       key: 'docs',
       label: t('document'),
       onClick: () => window.open(DOCUMENTS, '__blank'),
-    },
-    {
-      icon: Feather,
-      key: 'feedback',
-      label: t('feedback'),
-      onClick: () => window.open(FEEDBACK, '__blank'),
     },
     {
       icon: DiscordIcon,

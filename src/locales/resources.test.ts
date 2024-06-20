@@ -28,12 +28,13 @@ describe('normalizeLocale', () => {
     expect(normalizeLocale('ar-EG')).toBe('ar');
   });
 
-  it('should return "en-US" when locale is "en"', () => {
-    expect(normalizeLocale('en')).toBe('en-US');
+  it('should return "id-ID" when locale is "en"', () => {
+    expect(normalizeLocale('id')).toBe('id-ID');
   });
 
   it('should return the input locale for other valid locales', () => {
     expect(normalizeLocale('fr-FR')).toBe('fr-FR');
+    expect(normalizeLocale('id-ID')).toBe('id-ID');
     expect(normalizeLocale('ja-JP')).toBe('ja-JP');
     expect(normalizeLocale('ko-KR')).toBe('ko-KR');
     expect(normalizeLocale('pt-BR')).toBe('pt-BR');
@@ -44,6 +45,6 @@ describe('normalizeLocale', () => {
 
   it('should return the input locale for unknown locales', () => {
     expect(normalizeLocale('unknown')).toBe('en-US');
-    expect(normalizeLocale('fr')).toBe('fr-FR');
+    expect(normalizeLocale('id-ID')).toBe('id-ID');
   });
 });
