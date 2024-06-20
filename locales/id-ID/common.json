@@ -1,0 +1,187 @@
+{
+  "about": "Tentang",
+  "advanceSettings": "Pengaturan Lanjutan",
+  "appInitializing": "Finsi AI sedang diinisialisasi, harap tunggu...",
+  "autoGenerate": "Buat Otomatis",
+  "autoGenerateTooltip": "Buat deskripsi agen secara otomatis berdasarkan prompt",
+  "autoGenerateTooltipDisabled": "Harap masukkan tooltip sebelum menggunakan fitur pelengkapan otomatis",
+  "blog": "Blog Produk",
+  "cancel": "Batalkan",
+  "changelog": "Catatan Perubahan",
+  "close": "Tutup",
+  "copy": "Salin",
+  "copyFail": "Salinan gagal",
+  "copySuccess": "Salinan berhasil",
+  "dataStatistics": {
+    "messages": "Pesan",
+    "sessions": "Agen",
+    "today": "Baru Hari Ini",
+    "topics": "Topik"
+  },
+  "defaultAgent": "Fins",
+  "defaultSession": "Fins",
+  "delete": "Hapus",
+  "document": "Panduan Pengguna",
+  "duplicate": "Buat Duplikat",
+  "edit": "Edit",
+  "export": "Ekspor Konfigurasi",
+  "exportType": {
+    "agent": "Ekspor Pengaturan Agen",
+    "agentWithMessage": "Ekspor Agen dan Pesan",
+    "all": "Ekspor Pengaturan Global dan Semua Data Agen",
+    "allAgent": "Ekspor Semua Pengaturan Agen",
+    "allAgentWithMessage": "Ekspor Semua Agen dan Pesan",
+    "globalSetting": "Ekspor Pengaturan Global"
+  },
+  "feedback": "Umpan Balik",
+  "follow": "Ikuti saya di {{name}}",
+  "fullscreen": "Mode Layar Penuh",
+  "historyRange": "Rentang Riwayat",
+  "import": "Impor Konfigurasi",
+  "importModal": {
+    "finish": {
+      "onlySettings": "Pengaturan sistem berhasil diimpor",
+      "start": "Mulai menggunakan",
+      "subTitle": "Data berhasil diimpor, memakan waktu {{duration}} detik. Detail impor sebagai berikut:",
+      "title": "Impor data selesai"
+    },
+    "loading": "Data sedang diimpor, harap tunggu...",
+    "result": {
+      "added": "Berhasil diimpor",
+      "errors": "Kesalahan impor",
+      "messages": "Pesan",
+      "sessionGroups": "Grup",
+      "sessions": "Agen",
+      "skips": "Duplikat dilewati",
+      "topics": "Topik",
+      "type": "Jenis Data"
+    },
+    "title": "Impor Data"
+  },
+  "installPWA": "Instal aplikasi browser",
+  "lang": {
+    "ar": "Arab",
+    "bg-BG": "Bulgaria",
+    "bn": "Bengali",
+    "cs-CZ": "Ceko",
+    "da-DK": "Denmark",
+    "de-DE": "Jerman",
+    "el-GR": "Yunani",
+    "en": "Inggris",
+    "en-US": "Inggris",
+    "es-ES": "Spanyol",
+    "fi-FI": "Finlandia",
+    "fr-FR": "Prancis",
+    "hi-IN": "Hindi",
+    "hu-HU": "Hungaria",
+    "id-ID": "Indonesia",
+    "it-IT": "Italia",
+    "ja-JP": "Jepang",
+    "ko-KR": "Korea",
+    "nl-NL": "Belanda",
+    "no-NO": "Norwegia",
+    "pl-PL": "Polandia",
+    "pt-BR": "Portugis",
+    "pt-PT": "Portugis",
+    "ro-RO": "Rumania",
+    "ru-RU": "Rusia",
+    "sk-SK": "Slowakia",
+    "sr-RS": "Serbia",
+    "sv-SE": "Swedia",
+    "th-TH": "Thailand",
+    "tr-TR": "Turki",
+    "uk-UA": "Ukraina",
+    "vi-VN": "Vietnam",
+    "zh": "China Sederhana",
+    "zh-CN": "China Sederhana",
+    "zh-TW": "China Tradisional"
+  },
+  "layoutInitializing": "Meminisialisasi tata letak...",
+  "noDescription": "Tidak ada deskripsi yang tersedia",
+  "oauth": "SSO Login",
+  "officialSite": "Situs Resmi",
+  "ok": "Oke",
+  "password": "Kata Sandi",
+  "pin": "Sematkan",
+  "pinOff": "Lepas Sematan",
+  "privacy": "Kebijakan Privasi",
+  "regenerate": "Buat Ulang",
+  "rename": "Ubah Nama",
+  "reset": "Setel Ulang",
+  "retry": "Coba Lagi",
+  "send": "Kirim",
+  "setting": "Pengaturan",
+  "share": "Bagikan",
+  "stop": "Hentikan",
+  "sync": {
+    "actions": {
+      "settings": "Sinkronkan Pengaturan",
+      "sync": "Sinkronkan Sekarang"
+    },
+    "awareness": {
+      "current": "Perangkat Saat Ini"
+    },
+    "channel": "Saluran",
+    "disabled": {
+      "actions": {
+        "enable": "Aktifkan Sinkronisasi Cloud",
+        "settings": "Pengaturan Sinkronisasi"
+      },
+      "desc": "Data sesi saat ini hanya disimpan di browser ini. Jika Anda perlu menyinkronkan data di beberapa perangkat, harap konfigurasikan dan aktifkan sinkronisasi cloud.",
+      "title": "Sinkronisasi Data Dinonaktifkan"
+    },
+    "enabled": {
+      "title": "Sinkronisasi Data Diaktifkan"
+    },
+    "status": {
+      "connecting": "Menghubungkan",
+      "disabled": "Sinkronisasi Dinonaktifkan",
+      "ready": "Terhubung",
+      "synced": "Disinkronkan",
+      "syncing": "Sedang Disinkronkan",
+      "unconnected": "Koneksi Gagal"
+    },
+    "title": "Status Sinkronisasi",
+    "unconnected": {
+      "tip": "Koneksi server sinyal gagal, dan saluran komunikasi peer-to-peer tidak dapat dibuat. Harap periksa jaringan dan coba lagi."
+    }
+  },
+  "tab": {
+    "chat": "Obrolan",
+    "market": "Temukan",
+    "me": "Saya",
+    "setting": "Pengaturan"
+  },
+  "telemetry": {
+    "allow": "Izinkan",
+    "deny": "Tolak",
+    "desc": "Kami ingin mengumpulkan informasi penggunaan secara anonim untuk membantu kami meningkatkan Finsi AI dan memberi Anda pengalaman produk yang lebih baik. Anda dapat menonaktifkan ini kapan saja di Pengaturan - Tentang.",
+    "learnMore": "Pelajari Lebih Lanjut",
+    "title": "Bantu Finsi AI menjadi lebih baik"
+  },
+  "temp": "Sementara",
+  "terms": "Syarat dan Ketentuan",
+  "updateAgent": "Perbarui Informasi Agen",
+  "upgradeVersion": {
+    "action": "Tingkatkan",
+    "hasNew": "Pembaruan baru tersedia",
+    "newVersion": "Versi baru tersedia: {{version}}"
+  },
+  "userPanel": {
+    "anonymousNickName": "Pengguna Anonim",
+    "billing": "Manajemen Penagihan",
+    "data": "Penyimpanan Data",
+    "defaultNickname": "Pengguna Komunitas",
+    "discord": "Discord Author",
+    "docs": "Dokumentasi",
+    "email": "Dukungan Email",
+    "feedback": "Umpan Balik dan Saran",
+    "help": "Pusat Bantuan",
+    "moveGuide": "Tombol pengaturan telah dipindahkan ke sini",
+    "plans": "Paket Langganan",
+    "preview": "Pratinjau",
+    "profile": "Manajemen Akun",
+    "setting": "Pengaturan Aplikasi",
+    "usages": "Statistik Penggunaan"
+  }
+}

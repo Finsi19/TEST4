@@ -1,0 +1,138 @@
+{
+  "ModelSwitch": {
+    "title": "Model"
+  },
+  "agentDefaultMessage": "Halo, saya **{{name}}**. Anda dapat mulai mengobrol dengan saya langsung, atau pergi ke [Pengaturan Agen](/chat/settings#session={{id}}) untuk melengkapi informasi saya.",
+  "agentDefaultMessageWithSystemRole": "Halo, saya **{{name}}**, {{systemRole}}. Mari kita mulai mengobrol!",
+  "agentsAndConversations": "Agen dan Percakapan",
+  "backToBottom": "Kembali ke bawah",
+  "clearCurrentMessages": "Hapus pesan sesi saat ini",
+  "confirmClearCurrentMessages": "Anda akan menghapus pesan sesi saat ini. Setelah dihapus, pesan tidak dapat diambil kembali. Harap konfirmasi tindakan Anda.",
+  "confirmRemoveSessionItemAlert": "Anda akan menghapus agen ini. Setelah dihapus, agen tidak dapat diambil kembali. Harap konfirmasi tindakan Anda.",
+  "confirmRemoveSessionSuccess": "Agen berhasil dihapus",
+  "defaultAgent": "Fins",
+  "defaultList": "Daftar Default",
+  "defaultSession": "Agen Default",
+  "duplicateSession": {
+    "loading": "Menyalin...",
+    "success": "Salinan berhasil",
+    "title": "Salinan {{title}}"
+  },
+  "duplicateTitle": "Salinan {{title}}",
+  "emptyAgent": "Tidak ada asisten yang tersedia",
+  "historyRange": "Rentang Riwayat",
+  "inbox": {
+    "desc": "Aktifkan kluster otak dan ciptakan pemikiran kreatif. Agen virtual Anda siap berkomunikasi dengan Anda tentang segala hal.",
+    "title": "Hanya Obrolan"
+  },
+  "input": {
+    "addAi": "Tambahkan pesan AI",
+    "addUser": "Tambahkan pesan pengguna",
+    "more": "lebih",
+    "send": "Kirim",
+    "sendWithCmdEnter": "Tekan {{meta}} + Enter untuk mengirim",
+    "sendWithEnter": "Tekan Enter untuk mengirim",
+    "stop": "Hentikan",
+    "warp": "Baris Baru"
+  },
+  "messageAction": {
+    "delAndRegenerate": "Hapus dan Buat Ulang",
+    "regenerate": "Buat Ulang"
+  },
+  "newAgent": "Agen Baru",
+  "noDescription": "Tidak ada deskripsi yang tersedia",
+  "pin": "Sematkan",
+  "pinOff": "Lepas Sematan",
+  "regenerate": "Buat Ulang",
+  "roleAndArchive": "Peran dan Arsip",
+  "searchAgentPlaceholder": "Cari agen dan percakapan...",
+  "sendPlaceholder": "Ketik pesan Anda di sini...",
+  "sessionGroup": {
+    "config": "Manajemen Grup",
+    "confirmRemoveGroupAlert": "Grup ini akan dihapus. Setelah dihapus, agen dalam grup ini akan dipindahkan ke daftar default. Harap konfirmasi operasi Anda.",
+    "createAgentSuccess": "Agen berhasil dibuat",
+    "createGroup": "Tambahkan Grup Baru",
+    "createSuccess": "Berhasil dibuat",
+    "creatingAgent": "Membuat agen...",
+    "inputPlaceholder": "Masukkan nama grup...",
+    "moveGroup": "Pindahkan ke Grup",
+    "newGroup": "Grup Baru",
+    "rename": "Ubah Nama Grup",
+    "renameSuccess": "Berhasil diubah namanya",
+    "sortSuccess": "Urutan berhasil",
+    "sorting": "Pembaruan pengurutan grup...",
+    "tooLong": "Panjang nama grup harus antara 1-20"
+  },
+  "shareModal": {
+    "download": "Unduh Tangkapan Layar",
+    "imageType": "Format Gambar",
+    "screenshot": "Tangkapan Layar",
+    "settings": "Pengaturan Ekspor",
+    "shareToShareGPT": "Buat Tautan Berbagi ShareGPT",
+    "withBackground": "Sertakan Gambar Latar Belakang",
+    "withFooter": "Sertakan Footer",
+    "withPluginInfo": "Sertakan Informasi Plugin",
+    "withSystemRole": "Sertakan Pengaturan Peran Agen"
+  },
+  "stt": {
+    "action": "Masukan Suara",
+    "loading": "Mengenali...",
+    "prettifying": "Memoles..."
+  },
+  "temp": "Sementara",
+  "tokenDetails": {
+    "chats": "Pesan Obrolan",
+    "rest": "Sisa",
+    "systemRole": "Pengaturan Peran",
+    "title": "Detail Konteks",
+    "tools": "Pengaturan Plugin",
+    "total": "Total Tersedia",
+    "used": "Total Digunakan"
+  },
+  "tokenTag": {
+    "overload": "Batas Terlampaui",
+    "remained": "Sisa",
+    "used": "Digunakan"
+  },
+  "topic": {
+    "actions": {
+      "autoRename": "Ubah Nama Otomatis",
+      "duplicate": "Buat Salinan",
+      "export": "Ekspor Topik"
+    },
+    "confirmRemoveAll": "Anda akan menghapus semua topik. Setelah dihapus, topik tidak dapat dipulihkan. Harap berhati-hati.",
+    "confirmRemoveTopic": "Anda akan menghapus topik ini. Setelah dihapus, topik tidak dapat dipulihkan. Harap berhati-hati.",
+    "confirmRemoveUnstarred": "Anda akan menghapus topik yang tidak diberi bintang. Setelah dihapus, topik tidak dapat dipulihkan. Harap berhati-hati.",
+    "defaultTitle": "Topik Default",
+    "duplicateLoading": "Topik sedang diduplikasi...",
+    "duplicateSuccess": "Topik berhasil diduplikasi",
+    "guide": {
+      "desc": "Klik tombol di sebelah kiri untuk menyimpan sesi saat ini sebagai topik historis dan memulai sesi baru.",
+      "title": "Daftar Topik"
+    },
+    "openNewTopic": "Buka Topik Baru",
+    "removeAll": "Hapus Semua Topik",
+    "removeUnstarred": "Hapus Topik yang Tidak Diberi Bintang",
+    "saveCurrentMessages": "Simpan sesi saat ini sebagai topik",
+    "searchPlaceholder": "Cari topik...",
+    "title": "Daftar Topik"
+  },
+  "translate": {
+    "action": "Terjemahkan",
+    "clear": "Bersihkan Terjemahan"
+  },
+  "tts": {
+    "action": "Teks ke Ucapan",
+    "clear": "Bersihkan Ucapan"
+  },
+  "updateAgent": "Perbarui Informasi Agen",
+  "upload": {
+    "actionFiletip": "Perbarui File",
+    "actionTooltip": "Unggah Gambar",
+    "disabled": "Model saat ini tidak mendukung pengenalan visual. Harap ganti model untuk menggunakan fitur ini.",
+    "dragDesc": "Seret dan lepas file di sini, mendukung pengunggahan beberapa gambar. Tekan Shift untuk mengirim gambar langsung.",
+    "dragFileDesc": "Seret gambar dan file di sini untuk mendukung pengunggahan beberapa gambar dan file. Tekan Shift untuk mengirim gambar atau file langsung.",
+    "dragFileTitle": "Perbarui File",
+    "dragTitle": "Unggah Gambar"
+  }
+}

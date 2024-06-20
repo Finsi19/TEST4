@@ -1,0 +1,49 @@
+{
+  "button": {
+    "import": "Impor Konfigurasi",
+    "market": "Kunjungi Pasar",
+    "start": "Mulai Sekarang"
+  },
+  "guide": {
+    "agents": {
+      "replaceBtn": "Ganti Batch",
+      "title": "Rekomendasi Asisten Baru:"
+    },
+    "defaultMessage": "Saya adalah asisten cerdas pribadi Anda, Finsi Ai. Bagaimana saya dapat membantu Anda sekarang?\nJika Anda memerlukan asisten yang lebih profesional atau disesuaikan, Anda dapat mengklik `+` untuk membuat asisten khusus",
+    "qa": {
+      "q01": "Apa itu Fins?",
+      "q02": "Apa itu Finsi Ai?",
+      "q03": "Apakah Finsi Ai memiliki dukungan komunitas?",
+      "q04": "Fungsi apa yang didukung oleh Finsi Ai?",
+      "q05": "Bagaimana cara menyebarkan dan menggunakan Finsi Ai?",
+      "q06": "Berapa harga Finsi Ai?",
+      "q07": "Apakah Finsi Ai gratis?",
+      "q08": "Apakah ada versi layanan cloud?",
+      "q09": "Apakah Finsi Ai mendukung model bahasa lokal?",
+      "q10": "Apakah Finsi Ai mendukung pengenalan dan pembuatan gambar?",
+      "q11": "Apakah Finsi Ai mendukung sintesis ucapan dan pengenalan ucapan?",
+      "q12": "Apakah Finsi Ai mendukung sistem plugin?",
+      "q13": "Apakah ada pasar untuk mendapatkan GPT?",
+      "q14": "Apakah Finsi Ai mendukung beberapa penyedia layanan AI?",
+      "q15": "Apa yang harus saya lakukan jika saya mengalami masalah saat menggunakannya?"
+    },
+    "questions": {
+      "moreBtn": "Pelajari Lebih Lanjut",
+      "title": "Pertanyaan yang Sering Diajukan:"
+    },
+    "welcome": {
+      "afternoon": "Selamat Siang",
+      "morning": "Selamat Pagi",
+      "night": "Selamat Malam",
+      "noon": "Selamat Siang"
+    }
+  },
+  "header": "Selamat Datang",
+  "pickAgent": "Atau pilih dari templat agen berikut",
+  "skip": "Lewati Pembuatan",
+  "slogan": {
+    "desc1": "Membuka jalan bagi era baru berpikir dan menciptakan. Dibangun untuk Anda, Super Individual.",
+    "desc2": "Buat agen pertama Anda dan mari kita mulai~",
+    "title": "Lepaskan kekuatan super otak Anda"
+  }
+}

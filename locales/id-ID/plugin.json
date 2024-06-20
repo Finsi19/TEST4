@@ -1,0 +1,165 @@
+{
+  "debug": {
+    "arguments": "Argumen",
+    "function_call": "Panggilan Fungsi",
+    "off": "Matikan Debug",
+    "on": "Lihat informasi pemanggilan plugin",
+    "payload": "muatan plugin",
+    "response": "Tanggapan",
+    "tool_call": "permintaan panggilan alat"
+  },
+  "detailModal": {
+    "info": {
+      "description": "Deskripsi API",
+      "name": "Nama API"
+    },
+    "tabs": {
+      "info": "Kemampuan Plugin",
+      "manifest": "File Instalasi",
+      "settings": "Pengaturan"
+    },
+    "title": "Detail Plugin"
+  },
+  "dev": {
+    "confirmDeleteDevPlugin": "Apakah Anda yakin ingin menghapus plugin lokal ini? Setelah dihapus, plugin tidak dapat dipulihkan.",
+    "customParams": {
+      "useProxy": {
+        "label": "Instal melalui proxy (jika mengalami kesalahan akses lintas asal, coba aktifkan opsi ini dan instal ulang)"
+      }
+    },
+    "deleteSuccess": "Plugin berhasil dihapus",
+    "manifest": {
+      "identifier": {
+        "desc": "Pengenal unik plugin",
+        "label": "Pengenal"
+      },
+      "mode": {
+        "local": "Konfigurasi Visual",
+        "local-tooltip": "Konfigurasi visual tidak didukung saat ini",
+        "url": "Tautan Online"
+      },
+      "name": {
+        "desc": "Judul plugin",
+        "label": "Judul",
+        "placeholder": "Mesin Pencari"
+      }
+    },
+    "meta": {
+      "author": {
+        "desc": "Penulis plugin",
+        "label": "Penulis"
+      },
+      "avatar": {
+        "desc": "Ikon plugin, bisa berupa Emoji atau URL",
+        "label": "Ikon"
+      },
+      "description": {
+        "desc": "Deskripsi plugin",
+        "label": "Deskripsi",
+        "placeholder": "Dapatkan informasi dari mesin pencari"
+      },
+      "formFieldRequired": "Bidang ini wajib diisi",
+      "homepage": {
+        "desc": "Beranda plugin",
+        "label": "Beranda"
+      },
+      "identifier": {
+        "desc": "Pengenal unik plugin, hanya mendukung karakter alfanumerik, tanda hubung -, dan garis bawah _",
+        "errorDuplicate": "Pengenal sudah digunakan oleh plugin lain, harap ubah pengenal",
+        "label": "Pengenal",
+        "pattenErrorMessage": "Hanya karakter alfanumerik, tanda hubung -, dan garis bawah _ yang diizinkan"
+      },
+      "manifest": {
+        "desc": "Finsi AI akan menginstal plugin menggunakan tautan ini",
+        "label": "URL Deskripsi Plugin (Manifest)",
+        "preview": "Pratinjau Manifest",
+        "refresh": "Segarkan"
+      },
+      "title": {
+        "desc": "Judul plugin",
+        "label": "Judul",
+        "placeholder": "Mesin Pencari"
+      }
+    },
+    "metaConfig": "Konfigurasi metadata plugin",
+    "modalDesc": "Setelah menambahkan plugin kustom, plugin dapat digunakan untuk verifikasi pengembangan plugin atau langsung di sesi. Harap merujuk ke <1>dokumentasi pengembangan↗</> untuk pengembangan plugin.",
+    "openai": {
+      "importUrl": "Impor dari tautan URL",
+      "schema": "Skema"
+    },
+    "preview": {
+      "card": "Pratinjau tampilan plugin",
+      "desc": "Pratinjau deskripsi plugin",
+      "title": "Pratinjau Nama Plugin"
+    },
+    "save": "Instal Plugin",
+    "saveSuccess": "Pengaturan plugin berhasil disimpan",
+    "tabs": {
+      "manifest": "Manifest Deskripsi Fungsi (Manifest)",
+      "meta": "Metadata Plugin"
+    },
+    "title": {
+      "create": "Tambahkan Plugin Kustom",
+      "edit": "Edit Plugin Kustom"
+    },
+    "type": {
+      "lobe": "Plugin Finsi AI",
+      "openai": "Plugin OpenAI"
+    },
+    "update": "Perbarui",
+    "updateSuccess": "Pengaturan plugin berhasil diperbarui"
+  },
+  "error": {
+    "fetchError": "Gagal mengambil tautan manifest. Harap pastikan tautan valid dan mengizinkan akses lintas asal.",
+    "installError": "Instalasi plugin {{name}} gagal",
+    "manifestInvalid": "Manifest tidak sesuai dengan spesifikasi. Hasil validasi: \n\n {{error}}",
+    "noManifest": "File manifest tidak ada",
+    "openAPIInvalid": "Parsing OpenAPI gagal. Kesalahan: \n\n {{error}}",
+    "reinstallError": "Gagal menyegarkan plugin {{name}}",
+    "urlError": "Tautan tidak mengembalikan konten dalam format JSON. Harap pastikan tautan tersebut valid."
+  },
+  "list": {
+    "item": {
+      "deprecated.title": "Dihapus",
+      "local.config": "Konfigurasi",
+      "local.title": "Lokal"
+    }
+  },
+  "loading": {
+    "content": "Memanggil plugin...",
+    "plugin": "Plugin sedang berjalan..."
+  },
+  "pluginList": "Daftar Plugin",
+  "setting": "Pengaturan Plugin",
+  "settings": {
+    "indexUrl": {
+      "title": "Indeks Pasar",
+      "tooltip": "Pengeditan tidak didukung saat ini"
+    },
+    "modalDesc": "Setelah mengonfigurasi alamat pasar plugin, Anda dapat menggunakan pasar plugin kustom",
+    "title": "Konfigurasi Pasar Plugin"
+  },
+  "store": {
+    "actions": {
+      "confirmUninstall": "Plugin akan segera dihapus. Setelah dihapus, konfigurasi plugin akan dihapus. Harap konfirmasi operasi Anda.",
+      "detail": "Detail",
+      "install": "Instal",
+      "manifest": "Edit File Instalasi",
+      "settings": "Pengaturan",
+      "uninstall": "Hapus Instalasi"
+    },
+    "communityPlugin": "Pihak Ketiga",
+    "customPlugin": "Plugin Kustom",
+    "empty": "Belum ada plugin yang terinstal",
+    "installAllPlugins": "Instal Semua",
+    "networkError": "Gagal mengambil toko plugin. Harap periksa koneksi jaringan Anda dan coba lagi",
+    "placeholder": "Cari nama plugin, deskripsi, atau kata kunci...",
+    "releasedAt": "Dirilis pada {{createdAt}}",
+    "tabs": {
+      "all": "Semua",
+      "installed": "Terinstal"
+    },
+    "title": "Toko Plugin"
+  },
+  "unknownPlugin": "Plugin tidak dikenal"
+}

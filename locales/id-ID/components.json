@@ -1,0 +1,16 @@
+{
+  "ModelSelect": {
+    "featureTag": {
+      "custom": "Model kustom, secara default, mendukung panggilan fungsi dan pengenalan visual. Harap verifikasi ketersediaan kemampuan di atas berdasarkan situasi aktual.",
+      "file": "Model ini mendukung unggahan file untuk membaca dan pengenalan.",
+      "functionCall": "Model ini mendukung panggilan fungsi.",
+      "tokens": "Model ini mendukung hingga {{tokens}} token dalam satu sesi.",
+      "vision": "Model ini mendukung pengenalan visual."
+    },
+    "removed": "Model tidak ada dalam daftar. Model akan dihapus secara otomatis jika tidak dipilih."
+  },
+  "ModelSwitchPanel": {
+    "emptyModel": "Tidak ada model yang diaktifkan. Harap buka pengaturan untuk mengaktifkan.",
+    "provider": "Penyedia"
+  }
+}

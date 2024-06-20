@@ -1,0 +1,10 @@
+{
+  "dalle": {
+    "autoGenerate": "Buat Otomatis",
+    "downloading": "Tautan gambar yang dihasilkan oleh DALL·E3 hanya valid selama 1 jam, menyimpan gambar secara lokal...",
+    "generate": "Buat",
+    "generating": "Sedang membuat...",
+    "images": "Gambar:",
+    "prompt": "Prompt"
+  }
+}

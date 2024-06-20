@@ -8,7 +8,8 @@ module.exports = defineConfig({
     'ar',
     'bg-BG',
     'zh-TW',
-    'en-US',
+    'id-ID',
+    'id-ID',
     'ru-RU',
     'ja-JP',
     'ko-KR',
@@ -31,15 +32,15 @@ module.exports = defineConfig({
   markdown: {
     // reference: '你需要保持 mdx 的组件格式，输出文本不需要在最外层包裹任何代码块语法',
     entry: ['./README.zh-CN.md', './contributing/**/*.zh-CN.md', './docs/**/*.zh-CN.mdx'],
-    entryLocale: 'zh-CN',
-    outputLocales: ['en-US'],
+    entryLocale: 'id-ID',
+    outputLocales: ['id-ID'],
     exclude: ['./contributing/_Sidebar.md', './contributing/_Footer.md', './contributing/Home.md'],
     outputExtensions: (locale, { filePath }) => {
       if (filePath.includes('.mdx')) {
-        if (locale === 'en-US') return '.mdx';
+        if (locale === 'id-ID') return '.mdx';
         return `.${locale}.mdx`;
       } else {
-        if (locale === 'en-US') return '.md';
+        if (locale === 'id-ID') return '.md';
         return `.${locale}.md`;
       }
     },

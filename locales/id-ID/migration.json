@@ -1,0 +1,45 @@
+{
+  "dbV1": {
+    "action": {
+      "clearDB": "Bersihkan Data Lokal",
+      "downloadBackup": "Unduh Cadangan Data",
+      "reUpgrade": "Tingkatkan Ulang",
+      "start": "Mulai",
+      "upgrade": "Tingkatkan"
+    },
+    "clear": {
+      "confirm": "Anda akan membersihkan data lokal (pengaturan global tidak akan terpengaruh). Harap konfirmasi bahwa Anda telah mengunduh cadangan data."
+    },
+    "description": "Dalam versi baru, penyimpanan data Finsi AI telah mengalami lompatan besar. Oleh karena itu, kami perlu meningkatkan data versi lama untuk memberi Anda pengalaman pengguna yang lebih baik.",
+    "features": {
+      "capability": {
+        "desc": "Berdasarkan teknologi IndexedDB, dapat menyimpan pesan percakapan seumur hidup.",
+        "title": "Kapasitas Tinggi"
+      },
+      "performance": {
+        "desc": "Jutaan pesan diindeks secara otomatis, dan kueri pengambilan merespons dalam milidetik.",
+        "title": "Performa Tinggi"
+      },
+      "use": {
+        "desc": "Mendukung pencarian judul, deskripsi, tag, konten pesan, dan bahkan teks terjemahan, sangat meningkatkan efisiensi pencarian harian.",
+        "title": "Lebih Ramah Pengguna"
+      }
+    },
+    "title": "Evolusi Data Finsi AI",
+    "upgrade": {
+      "error": {
+        "subTitle": "Maaf, terjadi kesalahan selama proses peningkatan database. Harap coba solusi berikut: A. Bersihkan data lokal dan impor ulang data cadangan; B. Klik tombol 'Coba Tingkatkan Ulang'.<br><br> Jika masalah tetap berlanjut, harap <1>kirimkan permintaan</1>, dan kami akan membantu Anda sesegera mungkin.",
+        "title": "Peningkatan Database Gagal"
+      },
+      "success": {
+        "subTitle": "Database Finsi AI telah berhasil ditingkatkan ke versi terbaru. Mulai rasakan sekarang!",
+        "title": "Peningkatan Database Berhasil"
+      }
+    },
+    "upgradeTip": "Proses peningkatan akan memakan waktu sekitar 10 hingga 20 detik. Harap jangan tutup Finsi AI selama peningkatan."
+  },
+  "migrateError": {
+    "missVersion": "Data yang diimpor tidak memiliki nomor versi. Harap periksa file dan coba lagi.",
+    "noMigration": "Tidak ditemukan solusi migrasi untuk versi saat ini. Harap periksa nomor versi dan coba lagi. Jika masalah tetap berlanjut, harap kirimkan permintaan umpan balik."
+  }
+}

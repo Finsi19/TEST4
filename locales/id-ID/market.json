@@ -1,0 +1,32 @@
+{
+  "addAgent": "Tambahkan Agen",
+  "addAgentAndConverse": "Tambahkan Agen dan Obrolan",
+  "addAgentSuccess": "Berhasil Ditambahkan",
+  "guide": {
+    "func1": {
+      "desc1": "Masuk ke halaman pengaturan yang ingin Anda kirimkan ke asisten dengan mengklik ikon pengaturan di sudut kanan atas jendela obrolan.",
+      "desc2": "Klik tombol 'Kirim ke Pasar Asisten' di sudut kanan atas.",
+      "tag": "Metode 1",
+      "title": "Kirim melalui Finsi AI"
+    },
+    "func2": {
+      "button": "Buka Repositori Asisten Github",
+      "desc": "Jika Anda ingin menambahkan asisten ke indeks, buat entri di direktori plugin menggunakan agent-template.json atau agent-template-full.json, tulis deskripsi singkat dan tag yang sesuai, lalu buat permintaan tarik.",
+      "tag": "Metode 2",
+      "title": "Kirim melalui Github"
+    }
+  },
+  "search": {
+    "placeholder": "Cari nama agen, deskripsi, atau kata kunci..."
+  },
+  "sidebar": {
+    "comment": "Komentar",
+    "prompt": "Prompt",
+    "title": "Detail Agen"
+  },
+  "submitAgent": "Kirim Agen",
+  "title": {
+    "allAgents": "Semua Agen",
+    "recentSubmits": "Kirim Baru-baru Ini"
+  }
+}

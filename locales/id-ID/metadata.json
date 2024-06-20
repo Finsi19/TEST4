@@ -1,0 +1,18 @@
+{
+  "chat": {
+    "description": "Finsi AI menawarkan Anda pengalaman pengguna ChatGPT, OLLaMA, Gemini, Claude WebUI terbaik",
+    "title": "Finsi AI: Alat Produktivitas LLM Pribadi, Berikan Diri Anda Otak yang Lebih Cerdas"
+  },
+  "market": {
+    "description": "Pembuatan konten, penulisan salinan, tanya jawab, pembuatan gambar, pembuatan video, pembuatan suara, agen cerdas, alur kerja otomatisasi, sesuaikan AI / GPT / OLLaMA agen cerdas Anda sendiri",
+    "title": "Pasar Agen"
+  },
+  "plugins": {
+    "description": "Pencarian, pembuatan bagan, akademis, pembuatan gambar, pembuatan video, pembuatan suara, alur kerja otomatisasi, sesuaikan kemampuan plugin ToolCall eksklusif ChatGPT / OLLaMA",
+    "title": "Pasar Plugin"
+  },
+  "welcome": {
+    "description": "Finsi AI menawarkan Anda pengalaman pengguna ChatGPT, OLLaMA, Gemini, Claude WebUI terbaik",
+    "title": "Selamat Datang di Finsi AI: Alat Produktivitas LLM Pribadi, Berikan Diri Anda Otak yang Lebih Cerdas"
+  }
+}

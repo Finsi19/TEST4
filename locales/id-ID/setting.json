@@ -1,0 +1,407 @@
+{
+  "about": {
+    "title": "Tentang"
+  },
+  "agentTab": {
+    "chat": "Preferensi Obrolan",
+    "meta": "Info Asisten",
+    "modal": "Pengaturan Model",
+    "plugin": "Pengaturan Plugin",
+    "prompt": "Konfigurasi Peran",
+    "tts": "Layanan Suara"
+  },
+  "analytics": {
+    "telemetry": {
+      "desc": "Dengan memilih untuk mengirimkan data telemetri, Anda dapat membantu kami meningkatkan pengalaman pengguna Finsi AI secara keseluruhan",
+      "title": "Kirim Data Penggunaan Anonim"
+    },
+    "title": "Analisis"
+  },
+  "danger": {
+    "clear": {
+      "action": "Bersihkan Sekarang",
+      "confirm": "Konfirmasi untuk membersihkan semua data obrolan?",
+      "desc": "Ini akan menghapus semua data sesi, termasuk agen, file, pesan, plugin, dll.",
+      "success": "Semua pesan sesi telah dihapus",
+      "title": "Bersihkan Semua Pesan Sesi"
+    },
+    "reset": {
+      "action": "Setel Ulang Sekarang",
+      "confirm": "Konfirmasi untuk mengatur ulang semua pengaturan?",
+      "currentVersion": "Versi Saat Ini",
+      "desc": "Atur ulang semua pengaturan ke nilai default",
+      "success": "Semua pengaturan telah diatur ulang",
+      "title": "Atur Ulang Semua Pengaturan"
+    }
+  },
+  "header": {
+    "desc": "Preferensi dan pengaturan model.",
+    "global": "Pengaturan Global",
+    "session": "Pengaturan Sesi",
+    "sessionDesc": "Pengaturan peran dan preferensi sesi.",
+    "sessionWithName": "Pengaturan Sesi · {{name}}",
+    "title": "Pengaturan"
+  },
+  "llm": {
+    "checker": {
+      "button": "Periksa",
+      "desc": "Uji apakah Kunci Api dan alamat proxy diisi dengan benar",
+      "pass": "Periksa Berhasil",
+      "title": "Pemeriksaan Konektivitas"
+    },
+    "customModelCards": {
+      "addNew": "Buat dan tambahkan model {{id}}",
+      "config": "Konfigurasi Model",
+      "confirmDelete": "Anda akan menghapus model kustom ini. Setelah dihapus, model tidak dapat dipulihkan. Harap berhati-hati.",
+      "modelConfig": {
+        "azureDeployName": {
+          "extra": "Bidang yang sebenarnya diminta di Azure OpenAI",
+          "placeholder": "Masukkan nama penyebaran model di Azure",
+          "title": "Nama Penyebaran Model"
+        },
+        "displayName": {
+          "placeholder": "Masukkan nama tampilan model, seperti ChatGPT, GPT-4, dll.",
+          "title": "Nama Tampilan Model"
+        },
+        "files": {
+          "extra": "Implementasi unggahan file saat ini di Finsi AI hanyalah solusi hack untuk percobaan sendiri. Harap tunggu kemampuan unggahan file lengkap dalam implementasi mendatang.",
+          "title": "Dukungan Unggahan File"
+        },
+        "functionCall": {
+          "extra": "Konfigurasi ini hanya akan mengaktifkan kemampuan panggilan fungsi di Finsi AI. Apakah panggilan fungsi didukung sepenuhnya bergantung pada model itu sendiri. Harap uji ketersediaan panggilan fungsi dalam model ini sendiri.",
+          "title": "Dukungan Panggilan Fungsi"
+        },
+        "id": {
+          "extra": "Akan ditampilkan sebagai label model",
+          "placeholder": "Masukkan ID model, seperti gpt-4-turbo-preview atau claude-2.1",
+          "title": "ID Model"
+        },
+        "modalTitle": "Konfigurasi Model Kustom",
+        "tokens": {
+          "title": "Jumlah Token Maksimum",
+          "unlimited": "tidak terbatas"
+        },
+        "vision": {
+          "extra": "Konfigurasi ini hanya akan mengaktifkan konfigurasi unggahan gambar di Finsi AI. Apakah pengenalan didukung sepenuhnya bergantung pada model itu sendiri. Harap uji ketersediaan pengenalan visual dalam model ini sendiri.",
+          "title": "Dukungan Pengenalan Visual"
+        }
+      }
+    },
+    "fetchOnClient": {
+      "desc": "Mode pengambilan sisi klien memulai permintaan sesi langsung dari browser, meningkatkan kecepatan respons.",
+      "title": "Gunakan Mode Pengambilan Sisi Klien"
+    },
+    "fetcher": {
+      "fetch": "Dapatkan Daftar Model",
+      "fetching": "Sedang Mengambil Daftar Model...",
+      "latestTime": "Terakhir Diperbarui: {{time}}",
+      "noLatestTime": "Belum ada daftar yang tersedia"
+    },
+    "modelList": {
+      "desc": "Pilih model yang akan ditampilkan dalam sesi. Model yang dipilih akan ditampilkan dalam daftar model.",
+      "placeholder": "Harap pilih model dari daftar",
+      "title": "Daftar Model",
+      "total": "{{count}} model tersedia secara total"
+    },
+    "proxyUrl": {
+      "desc": "Harus menyertakan http(s):// selain alamat default",
+      "title": "Alamat Proxy API"
+    },
+    "waitingForMore": "Lebih banyak model <1>direncanakan untuk ditambahkan</1>, nantikan ✨"
+  },
+  "ollama": {
+    "download": {
+      "desc": "Ollama sedang mengunduh model. Harap jangan tutup halaman ini. Pengunduhan akan dilanjutkan dari tempat terakhir jika Anda memulai ulang pengunduhan.",
+      "remainingTime": "Sisa Waktu",
+      "speed": "Kecepatan Unduhan",
+      "title": "Sedang mengunduh model {{model}}"
+    }
+  },
+  "plugin": {
+    "addTooltip": "Plugin Kustom",
+    "clearDeprecated": "Hapus Plugin yang Dihapus",
+    "empty": "Belum ada plugin yang terinstal, silakan jelajahi <1>Toko Plugin</1>",
+    "installStatus": {
+      "deprecated": "Dihapus Instalasi"
+    },
+    "settings": {
+      "hint": "Harap isi konfigurasi berikut berdasarkan deskripsi",
+      "title": "Konfigurasi Plugin {{id}}",
+      "tooltip": "Konfigurasi Plugin"
+    },
+    "store": "Toko Plugin"
+  },
+  "settingAgent": {
+    "avatar": {
+      "title": "Avatar"
+    },
+    "backgroundColor": {
+      "title": "Warna Latar Belakang"
+    },
+    "description": {
+      "placeholder": "Masukkan deskripsi agen",
+      "title": "Deskripsi Agen"
+    },
+    "name": {
+      "placeholder": "Masukkan nama agen",
+      "title": "Nama"
+    },
+    "prompt": {
+      "placeholder": "Masukkan kata prompt peran",
+      "title": "Pengaturan Peran"
+    },
+    "tag": {
+      "placeholder": "Masukkan tag",
+      "title": "Tag"
+    },
+    "title": "Informasi Agen"
+  },
+  "settingChat": {
+    "autoCreateTopicThreshold": {
+      "desc": "Buat topik secara otomatis saat jumlah pesan saat ini melebihi nilai ini",
+      "title": "Ambang Batas Pesan"
+    },
+    "chatStyleType": {
+      "title": "Gaya Jendela Obrolan",
+      "type": {
+        "chat": "Mode Percakapan",
+        "docs": "Mode Dokumen"
+      }
+    },
+    "compressThreshold": {
+      "desc": "Saat pesan riwayat yang tidak terkompresi melebihi nilai ini, kompresi akan diterapkan",
+      "title": "Ambang Batas Kompresi Panjang Pesan Riwayat"
+    },
+    "enableAutoCreateTopic": {
+      "desc": "Apakah akan membuat topik secara otomatis selama percakapan, hanya efektif dalam topik sementara",
+      "title": "Buat Topik Otomatis"
+    },
+    "enableCompressThreshold": {
+      "title": "Aktifkan Ambang Batas Kompresi Panjang Pesan Riwayat"
+    },
+    "enableHistoryCount": {
+      "alias": "Tidak Terbatas",
+      "limited": "Sertakan hanya {{number}} pesan percakapan",
+      "setlimited": "Tetapkan pesan riwayat terbatas",
+      "title": "Batasi Jumlah Pesan Riwayat",
+      "unlimited": "Jumlah pesan riwayat tidak terbatas"
+    },
+    "historyCount": {
+      "desc": "Jumlah pesan historis yang dibawa dengan setiap permintaan",
+      "title": "Jumlah Pesan Riwayat yang Dilampirkan"
+    },
+    "inputTemplate": {
+      "desc": "Pesan terbaru pengguna akan diisi ke dalam templat ini",
+      "placeholder": "Prapemrosesan templat {{text}} akan diganti dengan informasi input real-time",
+      "title": "Prapemrosesan Input Pengguna"
+    },
+    "title": "Pengaturan Obrolan"
+  },
+  "settingModel": {
+    "enableMaxTokens": {
+      "title": "Aktifkan Batas Token Maksimum"
+    },
+    "frequencyPenalty": {
+      "desc": "Semakin tinggi nilainya, semakin besar kemungkinannya untuk mengurangi kata-kata yang diulang",
+      "title": "Denda Frekuensi"
+    },
+    "maxTokens": {
+      "desc": "Jumlah maksimum token yang digunakan untuk setiap interaksi",
+      "title": "Batas Token Maksimum"
+    },
+    "model": {
+      "desc": "Model ChatGPT",
+      "list": {
+        "gpt-3.5-turbo": "GPT 3.5",
+        "gpt-3.5-turbo-16k": "GPT 3.5 (16K)",
+        "gpt-4": "GPT 4",
+        "gpt-4-32k": "GPT 4 (32K)"
+      },
+      "title": "Model"
+    },
+    "presencePenalty": {
+      "desc": "Semakin tinggi nilainya, semakin besar kemungkinan untuk memperluas ke topik baru",
+      "title": "Kesegaran Topik"
+    },
+    "temperature": {
+      "desc": "Semakin tinggi nilainya, semakin acak responsnya",
+      "title": "Keacakan",
+      "titleWithValue": "Keacakan {{value}}"
+    },
+    "title": "Pengaturan Model",
+    "topP": {
+      "desc": "Mirip dengan keacakan, tetapi tidak berubah bersamaan dengan keacakan",
+      "title": "Pengambilan Sampel Top P"
+    }
+  },
+  "settingPlugin": {
+    "title": "Daftar Plugin"
+  },
+  "settingSystem": {
+    "accessCode": {
+      "desc": "Enkripsi akses diaktifkan oleh administrator",
+      "placeholder": "Masukkan kata sandi akses",
+      "title": "Kata Sandi Akses"
+    },
+    "oauth": {
+      "info": {
+        "desc": "Telah masuk",
+        "title": "Informasi Akun"
+      },
+      "signin": {
+        "action": "Masuk",
+        "desc": "Masuk menggunakan SSO untuk membuka kunci aplikasi",
+        "title": "Masuk ke Akun Anda"
+      },
+      "signout": {
+        "action": "Keluar",
+        "confirm": "Konfirmasi keluar?",
+        "success": "Keluar berhasil"
+      }
+    },
+    "title": "Pengaturan Sistem"
+  },
+  "settingTTS": {
+    "openai": {
+      "sttModel": "Model Ucapan-ke-Teks OpenAI",
+      "title": "OpenAI",
+      "ttsModel": "Model Teks-ke-Ucapan OpenAI"
+    },
+    "showAllLocaleVoice": {
+      "desc": "Jika ditutup, hanya suara dalam bahasa saat ini yang akan ditampilkan",
+      "title": "Tampilkan Semua Suara Lokal"
+    },
+    "stt": "Pengaturan Pengenalan Ucapan",
+    "sttAutoStop": {
+      "desc": "Jika ditutup, pengenalan ucapan tidak akan berakhir secara otomatis dan memerlukan klik manual untuk berhenti",
+      "title": "Hentikan Pengenalan Ucapan Secara Otomatis"
+    },
+    "sttLocale": {
+      "desc": "Bahasa input ucapan, opsi ini dapat meningkatkan keakuratan pengenalan ucapan",
+      "title": "Bahasa Pengenalan Ucapan"
+    },
+    "sttService": {
+      "desc": "Dimana 'browser' adalah layanan pengenalan ucapan asli dari browser",
+      "title": "Layanan Pengenalan Ucapan"
+    },
+    "title": "Layanan Ucapan",
+    "tts": "Pengaturan Teks-ke-Ucapan",
+    "ttsService": {
+      "desc": "Jika menggunakan layanan teks-ke-ucapan OpenAI, pastikan layanan model OpenAI diaktifkan",
+      "title": "Layanan Teks-ke-Ucapan"
+    },
+    "voice": {
+      "desc": "Pilih suara untuk agen saat ini, layanan TTS yang berbeda mendukung suara yang berbeda",
+      "preview": "Pratinjau Suara",
+      "title": "Suara Teks-ke-Ucapan"
+    }
+  },
+  "settingTheme": {
+    "avatar": {
+      "title": "Avatar"
+    },
+    "fontSize": {
+      "desc": "Ukuran font untuk konten obrolan",
+      "marks": {
+        "normal": "Normal"
+      },
+      "title": "Ukuran Font"
+    },
+    "lang": {
+      "autoMode": "Ikuti Sistem",
+      "title": "Bahasa"
+    },
+    "neutralColor": {
+      "desc": "Warna netral kustom untuk kecenderungan warna yang berbeda",
+      "title": "Warna Netral"
+    },
+    "primaryColor": {
+      "desc": "Warna tema utama kustom",
+      "title": "Warna Utama"
+    },
+    "themeMode": {
+      "auto": "Otomatis",
+      "dark": "Gelap",
+      "light": "Terang",
+      "title": "Tema"
+    },
+    "title": "Pengaturan Tema"
+  },
+  "submitAgentModal": {
+    "button": "Kirim Agen",
+    "identifier": "Pengenal Agen",
+    "metaMiss": "Harap lengkapi informasi agen sebelum mengirim. Itu harus mencakup nama, deskripsi, dan tag",
+    "placeholder": "Masukkan pengenal unik untuk agen, mis. web-development",
+    "tooltips": "Bagikan ke pasar agen"
+  },
+  "sync": {
+    "device": {
+      "deviceName": {
+        "hint": "Tambahkan nama untuk identifikasi yang mudah",
+        "placeholder": "Masukkan nama perangkat",
+        "title": "Nama Perangkat"
+      },
+      "title": "Informasi Perangkat",
+      "unknownBrowser": "Browser Tidak Dikenal",
+      "unknownOS": "OS Tidak Dikenal"
+    },
+    "warning": {
+      "message": "Fitur ini saat ini dalam tahap eksperimental dan mungkin memiliki perilaku yang tidak terduga atau tidak stabil. Jika Anda mengalami masalah, harap segera kirimkan umpan balik."
+    },
+    "webrtc": {
+      "channelName": {
+        "desc": "WebRTC akan menggunakan nama ini untuk membuat saluran sinkronisasi. Pastikan nama saluran unik.",
+        "placeholder": "Masukkan nama saluran sinkronisasi",
+        "shuffle": "Buat Secara Acak",
+        "title": "Nama Saluran Sinkronisasi"
+      },
+      "channelPassword": {
+        "desc": "Tambahkan kata sandi untuk memastikan privasi saluran. Hanya perangkat dengan kata sandi yang benar yang dapat bergabung dengan saluran.",
+        "placeholder": "Masukkan kata sandi saluran sinkronisasi",
+        "title": "Kata Sandi Saluran Sinkronisasi"
+      },
+      "desc": "Komunikasi data peer-to-peer secara real-time memerlukan semua perangkat untuk online agar sinkronisasi.",
+      "enabled": {
+        "invalid": "Harap masukkan nama saluran sinkronisasi sebelum mengaktifkan",
+        "title": "Aktifkan Sinkronisasi"
+      },
+      "title": "Sinkronisasi WebRTC"
+    }
+  },
+  "systemAgent": {
+    "title": "Agen Sistem",
+    "topic": {
+      "label": "Model Penamaan Topik",
+      "modelDesc": "Model yang ditunjuk untuk penamaan topik otomatis",
+      "title": "Penamaan Topik Otomatis"
+    },
+    "translation": {
+      "label": "Agen Terjemahan",
+      "modelDesc": "Model khusus untuk menerjemahkan pesan",
+      "title": "Pengaturan Terjemahan"
+    }
+  },
+  "tab": {
+    "about": "Tentang",
+    "agent": "Agen Default",
+    "common": "Pengaturan Umum",
+    "experiment": "Eksperimen",
+    "llm": "Model Bahasa",
+    "sync": "Sinkronisasi Cloud",
+    "system-agent": "Agen Sistem",
+    "tts": "Teks-ke-Ucapan"
+  },
+  "tools": {
+    "builtins": {
+      "groupName": "Built-in"
+    },
+    "disabled": "Model saat ini tidak mendukung panggilan fungsi dan tidak dapat menggunakan plugin",
+    "plugins": {
+      "enabled": "Diaktifkan: {{num}}",
+      "groupName": "Plugin",
+      "noEnabled": "Tidak ada plugin yang diaktifkan",
+      "store": "Toko Plugin"
+    },
+    "title": "Alat Ekstensi"
+  }
+}
