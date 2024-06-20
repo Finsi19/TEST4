@@ -388,7 +388,7 @@
     "agent": "Default Assistant",
     "common": "Common Settings",
     "experiment": "Experiment",
-    "llm": "Language Model",
+    "llm": "Optional Feature",
     "sync": "Cloud Sync",
     "system-agent": "System Assistant",
     "tts": "Text-to-Speech"

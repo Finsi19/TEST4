@@ -386,7 +386,7 @@
     "agent": "Agen Default",
     "common": "Pengaturan Umum",
     "experiment": "Eksperimen",
-    "llm": "Model Bahasa",
+    "llm": "Opsional Fitur",
     "sync": "Sinkronisasi Cloud",
     "system-agent": "Agen Sistem",
     "tts": "Teks-ke-Ucapan"
