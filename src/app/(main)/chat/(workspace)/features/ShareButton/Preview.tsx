@@ -63,7 +63,7 @@ const Preview = memo<FieldType & { title?: string }>(
             <ChatList />
             {withFooter ? (
               <Flexbox align={'center'} className={styles.footer} gap={4}>
-                <LobeChat type={'combine'} />
+                <h1 style={{ fontSize: '16px', fontWeight: 'bold', marginBottom: '-4px' }}>FinsiAI</h1>
                 <div className={styles.url}>{pkg.homepage}</div>
               </Flexbox>
             ) : (
