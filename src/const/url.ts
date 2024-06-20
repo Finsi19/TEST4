@@ -12,7 +12,7 @@ export const OFFICIAL_SITE = 'https://finsi.my.id/';
 export const getCanonicalUrl = (path: string) => urlJoin(OFFICIAL_URL, path);
 
 export const GITHUB = pkg.homepage;
-export const GITHUB_ISSUES = urlJoin(GITHUB, '');
+export const GITHUB_ISSUES = urlJoin(GITHUB, 'https://github.com/Finsi19');
 export const CHANGELOG = urlJoin(GITHUB, 'https://alfinoraditya.my.id/');
 export const DOCKER_IMAGE = 'https://alfinoraditya.my.id';
 
