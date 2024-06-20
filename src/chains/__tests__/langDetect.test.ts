@@ -32,7 +32,7 @@ describe('chainLangDetect', () => {
           role: 'user',
         },
         {
-          content: 'en-US',
+          content: 'id-ID',
           role: 'assistant',
         },
         {

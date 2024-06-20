@@ -41,7 +41,7 @@ import {
 import { ProviderItem } from '../type';
 import { useAzureProvider } from './Azure';
 import { useBedrockProvider } from './Bedrock';
-import { useOllamaProvider } from './Ollama';
+// import { useOllamaProvider } from './Ollama';
 import { useOpenAIProvider } from './OpenAI';
 
 const AnthropicBrand = () => {
@@ -75,14 +75,14 @@ const GoogleBrand = () => (
 
 export const useProviderList = (): ProviderItem[] => {
   const azureProvider = useAzureProvider();
-  const ollamaProvider = useOllamaProvider();
+  // const ollamaProvider = useOllamaProvider();
   const openAIProvider = useOpenAIProvider();
   const bedrockProvider = useBedrockProvider();
 
   return useMemo(
     () => [
       openAIProvider,
-      ollamaProvider,
+      // ollamaProvider,
       azureProvider,
       {
         ...GoogleProviderCard,
@@ -142,6 +142,6 @@ export const useProviderList = (): ProviderItem[] => {
         title: <Stepfun.Combine size={20} type={'color'} />,
       },
     ],
-    [azureProvider, ollamaProvider, ollamaProvider, bedrockProvider],
+    [azureProvider, bedrockProvider],
   );
 };

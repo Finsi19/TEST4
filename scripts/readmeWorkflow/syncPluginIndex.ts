@@ -37,6 +37,6 @@ const runPluginTable = async (lang: string) => {
 };
 
 export default async () => {
-  await runPluginTable('en-US');
+  await runPluginTable('id-ID');
   await runPluginTable('zh-CN');
 };

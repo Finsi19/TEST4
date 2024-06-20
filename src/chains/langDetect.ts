@@ -12,7 +12,7 @@ export const chainLangDetect = (content: string): Partial<ChatStreamPayload> => 
       role: 'user',
     },
     {
-      content: 'zh-CN',
+      content: 'id-ID',
       role: 'assistant',
     },
     {
@@ -20,7 +20,7 @@ export const chainLangDetect = (content: string): Partial<ChatStreamPayload> => 
       role: 'user',
     },
     {
-      content: 'en-US',
+      content: 'id-ID',
       role: 'assistant',
     },
     {

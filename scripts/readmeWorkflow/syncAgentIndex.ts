@@ -42,6 +42,6 @@ const runAgentTable = async (lang: string) => {
 };
 
 export default async () => {
-  await runAgentTable('en-US');
+  await runAgentTable('id-ID');
   await runAgentTable('zh-CN');
 };
