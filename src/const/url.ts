@@ -16,15 +16,15 @@ export const GITHUB_ISSUES = urlJoin(GITHUB, 'https://github.com/Finsi19');
 export const CHANGELOG = urlJoin(GITHUB, 'https://alfinoraditya.my.id/');
 export const DOCKER_IMAGE = 'https://alfinoraditya.my.id';
 
-export const DOCUMENTS = urlJoin(OFFICIAL_SITE, '/docs');
-export const USAGE_DOCUMENTS = urlJoin(DOCUMENTS, '/usage');
-export const SELF_HOSTING_DOCUMENTS = urlJoin(DOCUMENTS, '/self-hosting');
+export const DOCUMENTS = 'https://docs.finsi.my.id/';
+export const USAGE_DOCUMENTS = 'https://usage.finsi.my.id';
+export const SELF_HOSTING_DOCUMENTS = 'https://self-hosting.finsi.my.id';
 
 export const WIKI = urlJoin(GITHUB, 'wiki');
 export const WIKI_PLUGIN_GUIDE = urlJoin(USAGE_DOCUMENTS, '/plugins/development');
 export const MANUAL_UPGRADE_URL = urlJoin(SELF_HOSTING_DOCUMENTS, '/advanced/upstream-sync');
 
-export const BLOG = urlJoin(OFFICIAL_SITE, 'blog');
+export const BLOG = 'https://blog.finsi.my.id';
 
 export const ABOUT = OFFICIAL_SITE;
 export const FEEDBACK = pkg.bugs.url;
