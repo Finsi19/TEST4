@@ -1,6 +1,6 @@
 'use client';
 
-import { SiDiscord, SiGithub, SiMedium, SiRss, SiX } from '@icons-pack/react-simple-icons';
+import { SiDiscord, SiGithub, SiRss, SiX } from '@icons-pack/react-simple-icons';
 import { Form } from '@lobehub/ui';
 import { Divider } from 'antd';
 import { createStyles } from 'antd-style';
@@ -13,8 +13,7 @@ import {
   DISCORD,
   EMAIL_BUSINESS,
   EMAIL_SUPPORT,
-  GITHUB,
-  MEDIDUM,
+  GITHUB, // MEDIDUM,
   OFFICIAL_SITE,
   PRIVACY_URL,
   TERMS_URL,
@@ -102,12 +101,12 @@ const Page = memo<{ mobile?: boolean }>(({ mobile }) => {
                 value: 'x',
               },
 
-              {
-                href: MEDIDUM,
-                icon: SiMedium,
-                label: 'Medium',
-                value: 'medium',
-              },
+              // {
+              //   href: MEDIDUM,
+              //   icon: SiMedium,
+              //   label: 'Medium',
+              //   value: 'medium',
+              // },
             ]}
           />
           <Divider style={{ marginBlock: 0 }} />

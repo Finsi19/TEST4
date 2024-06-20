@@ -36,7 +36,7 @@ import {
 
 import { ProviderItem } from '../type';
 // import { useAzureProvider } from './Azure';
-import { useBedrockProvider } from './Bedrock';
+// import { useBedrockProvider } from './Bedrock';
 // import { useOllamaProvider } from './Ollama';
 import { useOpenAIProvider } from './OpenAI';
 
@@ -73,7 +73,7 @@ export const useProviderList = (): ProviderItem[] => {
   // const azureProvider = useAzureProvider();
   // const ollamaProvider = useOllamaProvider();
   const openAIProvider = useOpenAIProvider();
-  const bedrockProvider = useBedrockProvider();
+  // const bedrockProvider = useBedrockProvider();
 
   return useMemo(
     () => [
@@ -88,7 +88,7 @@ export const useProviderList = (): ProviderItem[] => {
       //   ...AnthropicProviderCard,
       //   title: <AnthropicBrand />,
       // },
-      bedrockProvider,
+      // bedrockProvider,
       {
         ...GroqProviderCard,
         title: <GroqBrand />,
@@ -138,6 +138,6 @@ export const useProviderList = (): ProviderItem[] => {
       //   title: <Stepfun.Combine size={20} type={'color'} />,
       // },
     ],
-    [bedrockProvider],
+    [],
   );
 };

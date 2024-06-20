@@ -115,7 +115,7 @@ const SystemRole = memo(() => {
                 edit: t('edit'),
                 title: t('settingAgent.prompt.title', { ns: 'setting' }),
               }}
-              value={systemRole}
+              value={''}
             />
             <div className={styles.promptMask} />
           </>
