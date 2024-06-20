@@ -52,4 +52,4 @@ export const localeOptions: LocaleOptions = [
   },
 ] as LocaleOptions;
 
-export const supportLocales: string[] = [...locales, 'en', 'zh'];
+export const supportLocales: string[] = [...locales, 'en', 'id-ID'];
