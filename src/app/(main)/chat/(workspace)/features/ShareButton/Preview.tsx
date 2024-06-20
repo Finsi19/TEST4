@@ -1,5 +1,5 @@
 import { Avatar, ChatHeaderTitle, Markdown } from '@lobehub/ui';
-import { LobeChat } from '@lobehub/ui/brand';
+// import { LobeChat } from '@lobehub/ui/brand';
 import { memo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Flexbox } from 'react-layout-kit';
@@ -63,7 +63,9 @@ const Preview = memo<FieldType & { title?: string }>(
             <ChatList />
             {withFooter ? (
               <Flexbox align={'center'} className={styles.footer} gap={4}>
-                <h1 style={{ fontSize: '16px', fontWeight: 'bold', marginBottom: '-4px' }}>FinsiAI</h1>
+                <h1 style={{ fontSize: '16px', fontWeight: 'bold', marginBottom: '-4px' }}>
+                  FinsiAI
+                </h1>
                 <div className={styles.url}>{pkg.homepage}</div>
               </Flexbox>
             ) : (
