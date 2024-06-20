@@ -4,8 +4,7 @@ import {
   Bedrock,
   DeepSeek,
   Google,
-  Groq,
-  LobeHub,
+  Groq, // LobeHub,
   Minimax,
   Mistral,
   Moonshot,
@@ -30,9 +29,9 @@ interface ModelProviderIconProps {
 
 const ModelProviderIcon = memo<ModelProviderIconProps>(({ provider }) => {
   switch (provider) {
-    case 'lobehub': {
-      return <LobeHub.Color size={20} />;
-    }
+    // case 'lobehub': {
+    //   return <LobeHub.Color size={20} />;
+    // }
 
     case ModelProvider.ZhiPu: {
       return <Zhipu size={20} />;

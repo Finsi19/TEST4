@@ -10,7 +10,7 @@
     "removed": "Model tidak ada dalam daftar. Model akan dihapus secara otomatis jika tidak dipilih."
   },
   "ModelSwitchPanel": {
-    "emptyModel": "Tidak ada model yang diaktifkan. Harap buka pengaturan untuk mengaktifkan.",
+    "emptyModel": "Tidak ada model yang diaktifkan.",
     "provider": "Penyedia"
   }
 }

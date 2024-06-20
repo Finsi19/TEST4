@@ -10,7 +10,7 @@
     "removed": "The model is not in the list. It will be automatically removed if deselected."
   },
   "ModelSwitchPanel": {
-    "emptyModel": "No enabled model. Please go to settings to enable.",
+    "emptyModel": "No enabled model.",
     "provider": "Provider"
   }
 }

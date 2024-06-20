@@ -7,7 +7,7 @@ import pkg from '../../package.json';
 import { INBOX_SESSION_ID } from './session';
 
 export const OFFICIAL_URL = 'https://finsi.my.id/';
-export const OFFICIAL_SITE = 'https://finsi.my.id/welcome';
+export const OFFICIAL_SITE = 'https://finsi.my.id/';
 
 export const getCanonicalUrl = (path: string) => urlJoin(OFFICIAL_URL, path);
 
