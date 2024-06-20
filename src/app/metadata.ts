@@ -4,7 +4,7 @@ import { appEnv, getAppConfig } from '@/config/app';
 import { OFFICIAL_URL } from '@/const/url';
 import { translation } from '@/server/translation';
 
-const title = 'LobeChat';
+const title = 'Finsi AI';
 
 const { SITE_URL = OFFICIAL_URL } = getAppConfig();
 const BASE_PATH = appEnv.NEXT_PUBLIC_BASE_PATH;
@@ -37,7 +37,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
           width: 1200,
         },
       ],
-      locale: 'en-US',
+      locale: 'id-ID',
       siteName: title,
       title: title,
       type: 'website',
@@ -45,13 +45,13 @@ export const generateMetadata = async (): Promise<Metadata> => {
     },
     title: {
       default: t('chat.title'),
-      template: '%s · LobeChat',
+      template: '%s · Finsi AI',
     },
     twitter: {
       card: 'summary_large_image',
       description: t('chat.description'),
       images: ['/og/cover.png?v=1'],
-      site: '@lobehub',
+      site: '@finsii4k',
       title: t('chat.title'),
     },
   };

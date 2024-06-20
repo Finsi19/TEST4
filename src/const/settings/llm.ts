@@ -58,7 +58,7 @@ export const DEFAULT_LLM_CONFIG: UserModelProviderConfig = {
     enabledModels: filterEnabledModels(MoonshotProviderCard),
   },
   ollama: {
-    enabled: true,
+    enabled: false,
     enabledModels: filterEnabledModels(OllamaProviderCard),
     fetchOnClient: true,
   },

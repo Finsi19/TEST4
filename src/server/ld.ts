@@ -23,7 +23,7 @@ export const AUTHOR_LIST = {
   lobehub: {
     avatar: 'https://avatars.githubusercontent.com/u/131470832?v=4',
     desc: 'Official Account',
-    name: 'LobeHub',
+    name: 'Finsi AI',
     url: 'https://github.com/lobehub',
   },
 };
@@ -72,7 +72,7 @@ class Ld {
     return {
       '@id': this.getId(SITE_URL, '#organization'),
       '@type': 'Organization',
-      'alternateName': 'LobeChat',
+      'alternateName': 'Finsi AI',
       'contactPoint': {
         '@type': 'ContactPoint',
         'contactType': 'customer support',
@@ -89,7 +89,7 @@ class Ld {
         'url': urlJoin(OFFICIAL_SITE, '/icon-512x512.png'),
         'width': 512,
       },
-      'name': 'LobeHub',
+      'name': 'Finsi AI',
       'sameAs': [
         X,
         'https://github.com/lobehub',
@@ -192,7 +192,7 @@ class Ld {
       '@type': 'WebSite',
       'description': pkg.description,
       'inLanguage': 'en-US',
-      'name': 'LobeChat',
+      'name': 'Finsi AI',
       'publisher': {
         '@id': this.getId(SITE_URL, '#organization'),
       },
@@ -207,7 +207,7 @@ class Ld {
   }
 
   private fixTitle(title: string) {
-    return title.includes('LobeChat') ? title : `${title} · LobeChat`;
+    return title.includes('Finsi AI') ? title : `${title} · Finsi AI`;
   }
 
   private fixUrl(url: string) {

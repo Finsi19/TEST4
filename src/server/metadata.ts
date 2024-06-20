@@ -5,7 +5,7 @@ import { formatDescLength, formatTitleLength } from '@/utils/genOG';
 
 export class Meta {
   public generate({
-    description = 'LobeChat offers you the best ChatGPT, OLLaMA, Gemini, Claude WebUI user experience',
+    description = 'Finsi AI offers you the best ChatGPT, Gemini, WebUI user experience',
     title,
     image = '/og/cover.png?v=1',
     url,
@@ -23,7 +23,7 @@ export class Meta {
     const formatedTitle = formatTitleLength(title, 21);
     // eslint-disable-next-line no-param-reassign
     const formatedDescription = formatDescLength(description, tags);
-    const siteTitle = title.includes('LobeChat') ? title : title + ' · LobeChat';
+    const siteTitle = title.includes('Finsi AI') ? title : title + ' · Finsi AI';
     return {
       alternates: { canonical: getCanonicalUrl(url) },
       description: formatedDescription,
@@ -57,7 +57,7 @@ export class Meta {
       card: 'summary_large_image',
       description,
       images: [image],
-      site: '@lobehub',
+      site: '@finsiAi',
       title,
       url,
     };
@@ -84,8 +84,8 @@ export class Meta {
           url: image,
         },
       ],
-      locale: 'en-US',
-      siteName: 'LobeChat',
+      locale: 'id-ID',
+      siteName: 'Finsi AI',
       title,
       type,
       url,
