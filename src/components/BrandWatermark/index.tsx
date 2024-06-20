@@ -1,14 +1,14 @@
 'use client';
 
-import { LobeHub } from '@lobehub/ui/brand';
+// import { LobeHub } from '@lobehub/ui/brand';
 import { createStyles } from 'antd-style';
-import Link from 'next/link';
 import { memo } from 'react';
 import { Flexbox, FlexboxProps } from 'react-layout-kit';
 
 const useStyles = createStyles(({ token, css }) => ({
-  logoLink: css`
+  poweredBy: css`
     height: 20px;
+    font-weight: bold;
     color: inherit;
 
     &:hover {
@@ -28,10 +28,12 @@ const BrandWatermark = memo<Omit<FlexboxProps, 'children'>>(({ style, ...rest })
       style={{ color: theme.colorTextDescription, fontSize: 12, ...style }}
       {...rest}
     >
-      <span>Powered by</span>
-      <Link className={styles.logoLink} href={'https://lobehub.com'} target={'_blank'}>
-        <LobeHub size={20} type={'text'} />
-      </Link>
+      <span>Powered by </span>
+      <span className={styles.poweredBy}>
+        <a href="https://finsi.my.id" rel="noopener noreferrer" target="_blank">
+          FinsiAI
+        </a>
+      </span>
     </Flexbox>
   );
 });

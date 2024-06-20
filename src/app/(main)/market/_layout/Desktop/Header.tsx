@@ -19,7 +19,7 @@ const Header = memo(() => {
 
   return (
     <ChatHeader
-      left={<LobeChat className={styles.logo} extra={'Discover'} size={36} type={'text'} />}
+      left={<LobeChat className={styles.logo} extra={'Discover'} size={36} type={'3d'} />}
       right={<ShareAgentButton />}
     />
   );
